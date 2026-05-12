@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:rgb(202, 96, 96);
+    color: blue;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(36, 24, 24);
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links li{
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.links li:hover{
+    color: white;
+    transform: translateY(-2px);
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover{
+    background-color: rgb(10, 75, 180);
+    transform: translateY(-2px);
+}
